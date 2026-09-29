@@ -14,7 +14,7 @@ describe('Funcionalidade Pagina de produtos', () => {
             .click()
     })
 
-    it.only('Deve adicionar um produto ao carrinho', () => {
+    it('Deve adicionar um produto ao carrinho', () => {
         var quantidade = 10
 
         cy.get('.product-block.grid')
